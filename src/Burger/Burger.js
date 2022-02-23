@@ -10,9 +10,9 @@ function Burger() {
    return (
         <>
             <button className="btn" onClick={handleShow}></button>
-            <Offcanvas className="bg-gradient" cl show={show} onHide={handleClose}>
+            <Offcanvas cl show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton color="#fff">
-                    <Offcanvas.Title>Выбери кофе</Offcanvas.Title>
+                    <Offcanvas.Title>Выбрать продукт</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <NavItems />

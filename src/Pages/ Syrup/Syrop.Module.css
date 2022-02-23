@@ -1,0 +1,13 @@
+.titleSyr{
+    text-align: center;
+    border-bottom: 1px solid #361f12;
+    line-height: 50px;
+    font-family: Poiret One, cursive;
+    font-size: 30px;
+}
+
+.syropImg{
+    display: block;
+    padding-top: 10px;
+    margin: 0 auto;
+}

@@ -1,0 +1,15 @@
+
+.volume-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.Volume {
+    vertical-align: baseline;
+}
+
+.titleVol{
+    text-align: center;
+    padding-top: 30px;
+}
