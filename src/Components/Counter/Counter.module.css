@@ -1,14 +1,13 @@
-.counter{
-    display: flex;
-    justify-content: flex-end;
-    border: 1px solid #361f12;
-}
+/*.counter {*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*    border: 1px solid #361f12;*/
+/*}*/
 
-.btnCount {
-    background-color: transparent !important;
-    border: none !important;
-}
+/*button.btn-count {*/
+/*    border: none;*/
+/*}*/
 
-.Count{
-    margin: 10px;
-}
+/*.Count {*/
+/*    margin: 10px;*/
+/*}*/

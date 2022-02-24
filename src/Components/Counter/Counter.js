@@ -14,10 +14,10 @@ function Counter() {
         setCount(prevCount => prevCount - 1);
     };
     return (
-        <div className="counter">
-            <button className="btnCount" onClick={handleDecrement}>-</button>
-            <span className="Count">{count}</span>
-            <button className="btnCount" onClick={handleIncrement}>+</button>
+        <div className="d-flex justify-content-between border rounded-3 m-0-a mt-1 mb-1  w-25">
+            <button className="border-0 mx-2 bg-white" onClick={handleDecrement}>-</button>
+            <span className="counter">{count}</span>
+            <button className="border-0 mx-2 bg-white" onClick={handleIncrement}>+</button>
         </div>
     );
 }

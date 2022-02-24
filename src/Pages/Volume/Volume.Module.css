@@ -1,15 +1,20 @@
 
-.volume-wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-.Volume {
-    vertical-align: baseline;
-}
 
 .titleVol{
     text-align: center;
     padding-top: 30px;
+}
+
+.text {
+    margin: 0;
+}
+
+.active {
+    opacity: 0.7;
+}
+
+.volume-text {
+    font-size: 22px;
+    font-family: Poiret One, cursive;
+    margin-bottom: 0;
 }
