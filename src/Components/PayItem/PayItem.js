@@ -1,12 +1,16 @@
 import React from 'react';
 import payDecor from '../../images/payDecor.svg'
 import '../../Components/PayItem/PayDecor.Module.css'
+import Cart from "../Cart/Cart";
 
-const PayItem = () => {
+const PayItem = (props) => {
+
     return (
         <div className="payWrapper">
-            <img className="payDecor" src={payDecor} alt="payDecor"/>
-            <span>200 руб.</span>
+            <div>
+                <img className="payDecor" src={payDecor} alt="payDecor"/>
+                <span>{props.price}</span>
+            </div>
         </div>
     );
 };

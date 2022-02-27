@@ -12,10 +12,12 @@ import Coffee from "../../Pages/Coffee/Coffee"
 import Syrup from "../../Pages/ Syrup/Syrup";
 import Ymi from "../../Pages/Ymi/Ymi";
 import Volume from "../../Pages/Volume/Volume";
+import Cart from "../../Components/Cart/Cart";
 
 
 function NavItems() {
     return  <Router>
+        <Cart/>
           <div className="nav">
               <div className="item">
                   <NavLink to="/Coffee">Кофе</NavLink>

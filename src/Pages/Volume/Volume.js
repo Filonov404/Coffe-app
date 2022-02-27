@@ -1,5 +1,4 @@
 import React from 'react';
-import {useState} from 'react';
 import Counter from "../../Components/Counter/Counter";
 import './Volume.Module.css'
 import Glass_M from '../../images/Glass_M.svg'
@@ -18,10 +17,10 @@ const Volume = () => {
                     <Col sm={3}>
                         <Nav as="tabs" className="flex-row align-items-end">
                             <Nav.Item>
-                                <Nav.Link eventKey="first"><img src={Glass_M} alt=""/></Nav.Link>
+                                <Nav.Link eventKey="first"><img src={Glass_L} alt=""/></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="second"><img src={Glass_L} alt=""/></Nav.Link>
+                                <Nav.Link eventKey="second"><img src={Glass_M} alt=""/></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="third"><img src={Glass_XL} alt=""/></Nav.Link>
@@ -43,7 +42,7 @@ const Volume = () => {
                     </Col>
                 </Row>
             </Tab.Container>
-            <Counter/>
+            <Counter />
             <PayItem/>
         </div>
     );

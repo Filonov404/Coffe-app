@@ -1,0 +1,66 @@
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+.item {
+    padding-bottom: 5px;
+
+}
+
+.item a {
+    color: #483737;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.btnNext {
+    background: #CCB0A1;
+    border: 1px solid #000000;
+    border-radius: 11px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    padding: 11px 0 9px;
+    margin: 20px 0 20px;
+}
+
+.btnNext:hover {
+    background: #361f12;
+    color: white;
+}
+
+
+a.active {
+    color: #483737;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+a.active::before{
+    content: '';
+    background-image: url('../../images/check.svg');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+a.active:hover {
+    color: #745656;
+}
+
+Link:hover {
+    color: #745656;
+}

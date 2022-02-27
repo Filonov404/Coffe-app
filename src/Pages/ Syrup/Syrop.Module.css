@@ -11,3 +11,17 @@
     padding-top: 10px;
     margin: 0 auto;
 }
+
+a.item{
+    color: #483737;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+a.active {
+    color: #483737;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}

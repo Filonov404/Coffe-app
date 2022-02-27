@@ -1,6 +1,7 @@
 import React from "react";
 import './Coffee.Module.css'
 import { NavLink } from "react-router-dom";
+import PayItem from "../../Components/PayItem/PayItem";
 
 
 function Coffee() {
@@ -28,6 +29,7 @@ function Coffee() {
           <div className="item">
               <NavLink to="link-3">Глясе</NavLink>
           </div>
+          <PayItem/>
       </div>
     );
 }
