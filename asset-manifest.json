@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.ae74cf64.css",
+    "main.js": "/my-app/static/js/main.7d296690.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bg.jpg": "/my-app/static/media/bg.c211d6fc33018c8aeb42.jpg",
+    "static/media/croissant 1.svg": "/my-app/static/media/croissant 1.bb7442de446e838a477841bbf1724f4b.svg",
+    "static/media/syrup.svg": "/my-app/static/media/syrup.7dcd38cfaa97c5ba1d17028f9a872c3d.svg",
+    "static/media/Truffele.svg": "/my-app/static/media/Truffele.0b8c76dba3e31f397042cdb7c26c31df.svg",
+    "static/media/check.svg": "/my-app/static/media/check.c11e975f424ab3fd8658.svg",
+    "static/media/cup.svg": "/my-app/static/media/cup.a2219f389e72cee0a7942e7f396b2e12.svg",
+    "static/media/Sandwich.svg": "/my-app/static/media/Sandwich.692ff3b7aa43d4dcb7fac80ce3204168.svg",
+    "static/media/Syrniki.svg": "/my-app/static/media/Syrniki.65611b58193bc1642e2366a531e1fc1b.svg",
+    "static/media/btn.svg": "/my-app/static/media/btn.ad69c4773449fc45c505.svg",
+    "static/media/payDecor.svg": "/my-app/static/media/payDecor.e040e6e46f4197ba353f937e6773ee1f.svg",
+    "static/media/Glass_M.svg": "/my-app/static/media/Glass_M.21dd828f38458ab81b4ba8e801ba9437.svg",
+    "static/media/Glass_L.svg": "/my-app/static/media/Glass_L.d6e18a8679e9de60dd6f42f94f4f8739.svg",
+    "static/media/Glass_XL.svg": "/my-app/static/media/Glass_XL.96af0deb5843f57733c362140bdf89f4.svg",
+    "index.html": "/my-app/index.html",
+    "main.ae74cf64.css.map": "/my-app/static/css/main.ae74cf64.css.map",
+    "main.7d296690.js.map": "/my-app/static/js/main.7d296690.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae74cf64.css",
+    "static/js/main.7d296690.js"
+  ]
+}
